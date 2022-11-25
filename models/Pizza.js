@@ -11,7 +11,7 @@ const PizzaSchema = new Schema({
 
   createdAt: {
     type: Date,
-    default: 'Large'
+    default: Date.now
   },
 
   size: {
