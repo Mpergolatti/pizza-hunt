@@ -1,6 +1,6 @@
 const { Comment, Pizza } = require('../models');
 
-const CommentController = {
+const commentController = {
   // Add Comment to Pizza
   addComment({ params, body }, res) {
     console.log(body);
@@ -46,4 +46,4 @@ const CommentController = {
   }
 }
 
-module.exports = CommentController;
+module.exports = commentController;
